@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const connectToDatabase = require('./db');
 const { ObjectId } = require('mongodb');
 const app = express();
-const port = 5000; // Replace with your desired port number
+const port = 3000; // Replace with your desired port number
 app.use(bodyParser.json());
 
 
